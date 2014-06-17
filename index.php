@@ -115,16 +115,8 @@
         
     <div id = "mapAndWeather">
         <br>
-        <h1>Places to Fish!</h1>
-        <iframe
-            align="middle"
-            width="500"
-            height="500"
-            frameborder="0" style="border:0"
-            
-            src="https://www.google.com/maps/embed/v1/search?key=AIzaSyC1mMm3TGgqyU0EnjcTqx7gPpAfw3n71Vk&q=fishing+in+FL">
-
-        </iframe>
+        <h1>Secret Fishing Hole!</h1>
+        <div id="googleMap" style="width:500px;height:400px;"></div>
         <br>
     </div>
     
