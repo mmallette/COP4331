@@ -3186,6 +3186,10 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.right{
+    position: relative;
+    float: left;
+}
 @media (max-width: 767px) {
 .navbar-nav .open .dropdown-menu {
     background-color: rgba(0, 0, 0, 0);
@@ -3219,7 +3223,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     padding-top: 15px;
 }
 .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    margin-right: 15px;
 }
 }
 @media (min-width: 768px) {
