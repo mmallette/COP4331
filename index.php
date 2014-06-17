@@ -27,8 +27,8 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Kevin</a></li>
                 <li><a href="ibrahim.html">Ibrahim</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="joinMember.html">Become a Member</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="joinMember.php">Become a Member</a></li>
               </ul>
             </div>
           </div>
