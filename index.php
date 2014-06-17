@@ -120,7 +120,7 @@
     <div id = "mapAndWeather">
         <br>
         <h1>Secret Fishing Hole!</h1>
-        <div id="googleMap" style="width:500px;height:400px;"></div>
+        <div id="googleMap" style="width:1000px;height:500px;"></div>
         <br>
     </div>
     
