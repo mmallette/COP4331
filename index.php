@@ -119,7 +119,7 @@
         
     <div id = "mapAndWeather">
         <br>
-        <h1>Secret Fishing Hole!</h1>
+        <h1>Central Florida Fishing</h1>
         <div id="googleMap" style="width:1000px;height:500px;"></div>
         <br>
     </div>
@@ -140,7 +140,9 @@
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places,visualization&v=3.exp"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true_or_false&v=3.16"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
     <script src="js/slide.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/map.js"></script>
