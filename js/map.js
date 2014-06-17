@@ -1,28 +1,68 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+var map;
+var infoWindow;
+var service;
 
-var myCenter = new google.maps.LatLng(28.597725, -81.176486);
-var marker;
+function initialize() {
+  map = new google.maps.Map(document.getElementById('googleMap'), {
+    center: new google.maps.LatLng(28.597725, -81.176486),
+    zoom: 10,
+    styles: [
+      {
+        stylers: [
+          { visibility: 'simplified' }
+        ]
+      },
+      {
+        elementType: 'labels',
+        stylers: [
+          { visibility: 'off' }
+        ]
+      }
+    ]
+  });
 
-function initialize(){
-    var mapProp = {
-        center:myCenter,
-        zoom:14,
-        mapTypeId:google.maps.MapTypeId.HYBRID
-    };
+  infoWindow = new google.maps.InfoWindow();
+  service = new google.maps.places.PlacesService(map);
 
-    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  google.maps.event.addListenerOnce(map, 'bounds_changed', performSearch);
+}
 
-    marker = new google.maps.Marker({
-        position:myCenter,
-        animation:google.maps.Animation.BOUNCE
-        });
+function performSearch() {
+  var request = {
+    bounds: map.getBounds(),
+    keyword: 'fishing'
+  };
+  service.radarSearch(request, callback);
+}
 
-        marker.setMap(map);
+function callback(results, status) {
+  if (status != google.maps.places.PlacesServiceStatus.OK) {
+    alert(status);
+    return;
+  }
+  for (var i = 0, result; result = results[i]; i++) {
+    createMarker(result);
+  }
+}
+
+function createMarker(place) {
+  var marker = new google.maps.Marker({
+    map: map,
+    position: place.geometry.location,
+  });
+
+  google.maps.event.addListener(marker, 'click', function() {
+    service.getDetails(place, function(result, status) {
+      if (status != google.maps.places.PlacesServiceStatus.OK) {
+        alert(status);
+        return;
+      }
+      infoWindow.setContent(result.name);
+      infoWindow.open(map, marker);
+    });
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
