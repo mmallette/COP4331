@@ -56,7 +56,7 @@ function createMarker(place) {
       fillColor: '#E65C00',
       fillOpacity: 1,
       scale: 1/4,
-      strokeColor: '#bd8d2c',
+      strokeColor: '#000000',
       strokeWeight: 1
     }
   });
