@@ -50,6 +50,15 @@ function createMarker(place) {
   var marker = new google.maps.Marker({
     map: map,
     position: place.geometry.location,
+    icon: {
+      // Star
+      path: 'M -32,0 -24,16 0,24 24,24 40,16 48,8 56,16 64,24 64,-24 56,-16 48,-8 40,-16 24,-24 0,-24 -16,-24 z',
+      fillColor: '#E65C00',
+      fillOpacity: 1,
+      scale: 1/4,
+      strokeColor: '#bd8d2c',
+      strokeWeight: 1
+    }
   });
 
   google.maps.event.addListener(marker, 'click', function() {
