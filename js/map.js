@@ -2,8 +2,12 @@
 var map;
 var infoWindow;
 var service;
+var geocoder;
 
 function initialize() {
+
+  geocoder = new google.maps.Geocoder();
+
   map = new google.maps.Map(document.getElementById('googleMap'), {
     center: new google.maps.LatLng(28.597725, -81.176486),
     zoom: 10,
@@ -34,6 +38,23 @@ function performSearch() {
     keyword: 'fishing'
   };
   service.radarSearch(request, callback);
+}
+
+function codeAddress() {
+  var address = document.getElementById('address').value;
+
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      map.setCenter(results[0].geometry.location);
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+
+  infoWindow = new google.maps.InfoWindow();
+  service = new google.maps.places.PlacesService(map);
+
+  google.maps.event.addListenerOnce(map, 'bounds_changed', performSearch);
 }
 
 function callback(results, status) {
