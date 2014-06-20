@@ -119,8 +119,14 @@
         
     <div id = "mapAndWeather">
         <br>
-        <h1>Central Florida Fishing</h1>
-        <div id="googleMap" style="width:1000px;height:500px;"></div>
+        <h1>Fishing Spots And Supplies In Your Area</h1><br>
+
+        <div id="local">
+          <input id="address" type="textbox" value="Orlando, Florida">
+          <input type="button" value="Go Fish" onclick="codeAddress()">
+        </div>
+
+        <div id="googleMap" style="width:1000px; height:500px;"></div>
         <br>
     </div>
     
@@ -140,6 +146,7 @@
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="https://maps.googleapis.com/maps/api/js?libraries=places,visualization&v=3.exp"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true_or_false&v=3.16"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
