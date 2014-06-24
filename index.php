@@ -25,7 +25,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="alvaro.html">Alvaro</a></li>
-                <li><a href="kevin.html">Kevin</a></li>
+                <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Ibrahim</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
