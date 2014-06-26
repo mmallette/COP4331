@@ -24,6 +24,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="spots.html">Spots</a></li>
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Ibrahim</a></li>
@@ -58,6 +59,20 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+
+      <hr class="featurette-divider">
+
+      <!-- fishing spots and weather -->
+      
+      <div class="row featurette">
+        <div class="col-md-5">
+          <a href="kevin.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><a href="spots.html" style="text-decoration: none">Fishing Spots</a> <span class="text-muted"> and Weather</span></h2>
+          <p class="lead">Grab your gear, we're going fishing. Fishing spots, weather, swag, oh my! Well help you find where to go, what you need, and where to buy it! Type in your city we can find you local charters, fishing holes, bait shops, and sporting goods stores. Well also find your local weather and help give you a few suggestions on things to remember for your tackle box! </p>
+        </div>
+      </div>
 
       <hr class="featurette-divider">
       
@@ -104,35 +119,6 @@
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-      
-      
-    <!-- API box ================================================== -->
-    <!-- right now its just a map hopefully one day it can be something cooler -->
-    
-    <div>
-        <br>
-        <div id = 'weatherBox'></div>
-        <br>
-    </div>
-    
-    <hr class="featurette-divider">
-        
-    <div id = "mapAndWeather">
-        <br>
-        <h1>Fishing Spots And Supplies In Your Area</h1><br>
-
-        <div id="local">
-          <input id="address" type="textbox" value="Orlando, Florida">
-          <input type="button" value="Go Fish" onclick="codeAddress()">
-        </div>
-
-        <div id="googleMap" style="width:1000px; height:500px;"></div>
-        <br>
-    </div>
-    
-    <!-- end API box -->
-    
-    <hr class="featurette-divider">
 
 
       <!-- FOOTER -->
@@ -146,12 +132,6 @@
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=places,visualization&v=3.exp"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=true_or_false&v=3.16"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
     <script src="js/slide.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/map.js"></script>
   </body>
 </html>
