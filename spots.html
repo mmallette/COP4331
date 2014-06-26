@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Florida Fishing</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  
+<!-- NAVBAR ================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.php">Fishing Florida</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><a href="spots.html">Spots</a></li>
+                <li><a href="alvaro.html">Alvaro</a></li>
+                <li><a href="kevin.html">Kevin</a></li>
+                <li><a href="ibrahim.html">Ibrahim</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.php">Login</a></li>
+                <li><a href="joinMember.php">Become a Member</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Main Page Content
+    ================================================== -->
+
+    <div class="container marketing">
+
+      
+    <!-- API box ================================================== -->
+    <!-- right now its just a map hopefully one day it can be something cooler -->
+    
+    <div>
+        <br>
+        <div id = 'weatherBox'></div>
+        <br>
+    </div>
+    
+    <hr class="featurette-divider">
+        
+    <div id = "mapAndWeather">
+        <br>
+        <h1>Fishing Spots And Supplies In Your Area</h1><br>
+
+        <div id="local">
+          <input id="address" type="textbox" value="Orlando, Florida">
+          <input type="button" value="Go Fish" onclick="codeAddress()">
+        </div>
+
+        <div id="googleMap" style="width:1000px; height:500px;"></div>
+        <br>
+    </div>
+    
+    <!-- end API box -->
+    
+    <hr class="featurette-divider">
+
+    </div><!-- /.container -->
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places,visualization&v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true_or_false&v=3.16"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>
