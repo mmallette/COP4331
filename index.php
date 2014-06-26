@@ -82,7 +82,7 @@
           <a href="kevin.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
         </div>
         <div class="col-md-7">
-            <h2 class="featurette-heading"><a href="kevin.html" style="text-decoration: none">Jokes</a> <span class="text-muted">Of the fishing kind.</span></h2>
+            <h2 class="featurette-heading"><a href="kevin.html" style="text-decoration: none">Jokes</a> <span class="text-muted"> of the fishing kind.</span></h2>
           <p class="lead">We have so many jokes! Tiny fish jokes, big fish jokes, jokes that in season, jokes that are out of season, and so many more!</p>
         </div>
       </div>
