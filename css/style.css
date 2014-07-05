@@ -4940,14 +4940,6 @@ th.visible-print, td.visible-print {
     color: #2C7CC3;
 }
 
-#weatherBox {
-    text-align: center;
-}
-
-#weatherBox h1 {
-    color: #2C7CC3;
-}
-
 #local{
     text-align: center;
     position: absolute;
