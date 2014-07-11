@@ -1,10 +1,19 @@
 
+
+
 var address = document.getElementById('address').value;
 
 jQuery(document).ready(function($) {
 
     $( "#button" ).click(function() {
-        $('#weatherBox').empty();
+        $('#heading').empty();
+        $('#radar').empty();
+        $('.temp').empty();
+        $('.wind').empty();
+        $('.visibility').empty();
+        $('.humidity').empty();
+        $('.UV').empty();
+        $('.conditions').empty();
 
         address = document.getElementById('address').value;
 
@@ -22,21 +31,18 @@ jQuery(document).ready(function($) {
                 var visibility = parsed_json['current_observation']['visibility_mi'];
                 var uv = parsed_json['current_observation']['UV'];
                 var precipitation = parsed_json['current_observation']['precip_today_string'];
+                var icon = parsed_json['current_observation']['icon'];
+                var conditions = parsed_json['current_observation']['weather'];
                 
-                $("#weatherBox").append("<h1>Current Weather Conditions for " + location + ", Florida</h1>");
-                $("#weatherBox").append("<p>Current temperature is: " + temp_f + ", but it feels like: " + feelslike + "</p>");
-                $("#weatherBox").append("<p>Current humidity is: " + humidity + "</p>");
-                $("#weatherBox").append("<p>Current heat index is: " + heat_index + "</p>");
-                $("#weatherBox").append("<p>Current wind conditions are: " + wind + "</p>");
-                $("#weatherBox").append("<p>Current windchill is: " + windchill + "</p>");
-                $("#weatherBox").append("<p>Current visibility: " + visibility + "</p>");
-                $("#weatherBox").append("<p>Current UV: " + uv + "</p>");
-                $("#weatherBox").append("<p>Today's precipitation: " + precipitation + "</p>");
-
-                if(temp_f > 85){
-                    $("#weatherBox").append('<img src="http://images.clipartof.com/thumbnails/1206167-Cartoon-Of-A-Happy-Blue-Water-Drop-Holding-A-Bottle-Of-Water-Royalty-Free-Vector-Clipart.jpg" alt="some_text">');
-                    $("#weatherBox").append("<p>Its hot out there bring water homie!</p>");
-                }
+                $("#heading").append("<h1>Weather for " + location + ", Florida</h1>");
+                $("#radar").append('<img id = "radarImg" src="http://api.wunderground.com/api/11f2c2de78ec01f3/animatedradar/q/FL/'+address+'.gif?newmaps=1&timelabel=1&timelabel.y=10&num=10&delay=50" alt="radar">');
+                $(".temp").append("<p>Temperature:<br><span style='font-size:40pt'>" + temp_f + "</span> F<br>Feels Like " + feelslike + "</p>");
+                $(".wind").append("<p>Wind: " + wind + "</p>");
+                $(".visibility").append("<p>Visibility: " + visibility + " mi.</p>");
+                $(".humidity").append("<p>Humidity is: " + humidity + "</p>");
+                $(".UV").append("<p>UV Index: " + uv + "</p>");
+                $(".conditions").append("<p>" + conditions + "</p>");    
+                $(".conditions").append('<img id="weatherIcon" src="http://icons.wxug.com/i/c/k/'+icon+'.gif" alt="icon">');  
             }
         });
     });
@@ -55,21 +61,18 @@ jQuery(document).ready(function($) {
             var visibility = parsed_json['current_observation']['visibility_mi'];
             var uv = parsed_json['current_observation']['UV'];
             var precipitation = parsed_json['current_observation']['precip_today_string'];
+            var icon = parsed_json['current_observation']['icon'];
+            var conditions = parsed_json['current_observation']['weather'];
             
-            $("#weatherBox").append("<h1>Current Weather Conditions for " + location + "</h1>");
-            $("#weatherBox").append("<p>Current temperature is: " + temp_f + ", but it feels like: " + feelslike + "</p>");
-            $("#weatherBox").append("<p>Current humidity is: " + humidity + "</p>");
-            $("#weatherBox").append("<p>Current heat index is: " + heat_index + "</p>");
-            $("#weatherBox").append("<p>Current wind conditions are: " + wind + "</p>");
-            $("#weatherBox").append("<p>Current windchill is: " + windchill + "</p>");
-            $("#weatherBox").append("<p>Current visibility: " + visibility + "</p>");
-            $("#weatherBox").append("<p>Current UV: " + uv + "</p>");
-            $("#weatherBox").append("<p>Today's precipitation: " + precipitation + "</p>");
-            
-            if(temp_f > 85){
-                $("#weatherBox").append('<img src="http://images.clipartof.com/thumbnails/1206167-Cartoon-Of-A-Happy-Blue-Water-Drop-Holding-A-Bottle-Of-Water-Royalty-Free-Vector-Clipart.jpg" alt="some_text">');
-                $("#weatherBox").append("<p>Its hot out there bring water homie!</p>");
-            }
+            $("#heading").append("<h1>Weather for " + location + ", Florida</h1>");
+            $("#radar").append('<img id = "radarImg" src="http://api.wunderground.com/api/11f2c2de78ec01f3/animatedradar/q/FL/'+address+'.gif?newmaps=1&timelabel=1&timelabel.y=10&num=10&delay=50" alt="radar">');
+            $(".temp").append("<p>Temperature:<br><span style='font-size:40pt'>" + temp_f + "</span> F<br>Feels Like " + feelslike + "</p>");
+            $(".wind").append("<p>Wind: " + wind + "</p>");
+            $(".visibility").append("<p>Visibility: " + visibility + " mi.</p>");
+            $(".humidity").append("<p>Humidity is: " + humidity + "</p>");
+            $(".UV").append("<p>UV Index: " + uv + "</p>");
+            $(".conditions").append("<p>" + conditions + "</p>");    
+            $(".conditions").append('<img id="weatherIcon" src="http://icons.wxug.com/i/c/k/'+icon+'.gif" alt="icon">');  
         }
-    });  
+    });
 });

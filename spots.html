@@ -3,6 +3,7 @@
   <head>
     <title>Florida Fishing</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/spots.css" rel="stylesheet">
   </head>
   
 <!-- NAVBAR ================================================== -->
@@ -22,6 +23,7 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
+                <li><a href="blog.html">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="login.php">Login</a></li>
@@ -43,7 +45,7 @@
     <!-- API box ================================================== -->
     <!-- right now its just a map hopefully one day it can be something cooler -->
     <div id = "mapAndWeather">
-        <br>
+
         <h1>Where in Florida will you be fishing?</h1><br>
 
         <div id="local">
@@ -61,12 +63,28 @@
     
     
     <div>
-        <br>
-        <div id = 'weatherBox'></div>
-        <br>
+        <div id = 'weatherBox'>
+          <div id = 'heading'></div>
+          <div id = 'containment'>
+            <div id = 'radar' class = 'bigBlock'></div>
+            <div class = 'bigBlock'>
+              <h2>Current Conditions</h2>
+              <div class = 'current'>
+                  <div class = 'block conditions'></div>
+                  <div class = 'block temp'></div>
+                  <div class = 'block wind'></div>
+              </div>
+              <div class = 'current'>
+                  <div class = 'block visibility'></div>
+                  <div class = 'block humidity'></div>
+                  <div class = 'block UV'></div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    
-    
+  
+
     <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->

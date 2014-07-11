@@ -27,6 +27,7 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
+                <li><a href="blog.html">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="login.php">Login</a></li>
@@ -103,7 +104,7 @@
 
       <hr class="featurette-divider">
       
-      <!-- Last page -->
+      <!-- Tides -->
       
       <div class="row featurette">
         <div class="col-md-7">
@@ -112,6 +113,20 @@
         </div>
         <div class="col-md-5">
             <a href="ibrahim.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Blog -->
+      
+      <div class="row featurette">
+        <div class="col-md-5">
+          <a href="Blog.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><a href="Blog.html" style="text-decoration: none">Blog</a> <span class="text-muted"> Post and Catch</span></h2>
+          <p class="lead">Theres plenty of fish in the sea, show all your fishing friends that you got the biggest catch! Share techniques, ask questions, and share spots (except for that secrete one).</p>
         </div>
       </div>
 

@@ -1,0 +1,98 @@
+#weatherBox {
+    /*height: 500px;
+    width: 1000px;*/
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+    background-color: #2C7CC3;
+}
+
+#weatherBox h1{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight:bold;
+}
+
+#weatherBox p{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+#weatherBox h2{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight:bold;
+}
+
+#heading{
+	text-align: center;
+	padding: 5px 0 5px 0;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight:bold;
+}
+
+#radar{
+	text-align: center;
+	width: auto;
+	height: auto;
+	box-shadow: 5px 5px 5px black;
+}
+
+.current {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.block{
+	height: 150px;
+	width: 150px;
+	margin: 5px 10px 5px 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#weatherIcon{
+	width: 100px;
+	height: auto;
+}
+
+#radarImg{
+	width: 355px;
+	height: auto;
+}
+
+.bigBlock{
+	margin: 0 25px 0 25px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#containment{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.wind{
+	background-image: url('img/wind.png');
+}
+
+.visibility{
+	background-image: url('img/glass.png');
+}
+
+.humidity{
+	background-image: url('img/humidity.png');
+}
+
+.UV{
+	background-image: url('img/uv.png');
+}
