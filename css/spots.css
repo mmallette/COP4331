@@ -94,3 +94,54 @@
 .UV{
 	background-image: url('img/uv.png');
 }
+
+.precautions{
+	text-align: center;
+}
+
+.precautions p{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+.precautions h1{
+	color: #2c7cc3;
+}
+
+.hydrate {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+    background-color: #2C7CC3;
+}
+
+.sunscreen {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+    background-color: #2C7CC3;
+}
+
+.breezy {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+    background-color: #2C7CC3;
+}
+
+.inActivePrecaution {
+	border: 5px inset;
+	opacity: 0.5;
+}
+
+.activePrecaution {
+	border: 5px outset;
+}
