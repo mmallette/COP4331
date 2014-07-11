@@ -4893,7 +4893,7 @@ th.visible-print, td.visible-print {
     margin-left: auto;
     margin-right: auto;
     border-radius:10px;
-    background-color: #2C7CC3;
+    background-image: url('img/slide1.png');
 }
 
 #slide2 {

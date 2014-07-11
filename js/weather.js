@@ -72,7 +72,9 @@ jQuery(document).ready(function($) {
             $(".humidity").append("<p>Humidity is: " + humidity + "</p>");
             $(".UV").append("<p>UV Index: " + uv + "</p>");
             $(".conditions").append("<p>" + conditions + "</p>");    
-            $(".conditions").append('<img id="weatherIcon" src="http://icons.wxug.com/i/c/k/'+icon+'.gif" alt="icon">');  
+            $(".conditions").append('<img id="weatherIcon" src="http://icons.wxug.com/i/c/k/'+icon+'.gif" alt="icon">');
+
+            
         }
     });
 });

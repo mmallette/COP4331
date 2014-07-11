@@ -45,10 +45,10 @@
     <div id = "container">
         <div id = 'slide1'>
             <h1>1st Awesome Photo</h1>
-        </div> 		
+        </div>    
         <div id = 'slide2'>
             <h1>2nd Awesome Photo</h1>
-        </div> 		
+        </div>    
         <div id = 'slide3'>
             <h1>3rd Awesome Photo</h1>
         </div> 
@@ -66,7 +66,7 @@
       
       <div class="row featurette">
         <div class="col-md-5">
-          <a href="kevin.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+          <a href="spots.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading"><a href="spots.html" style="text-decoration: none">Fishing Spots</a> <span class="text-muted"> and Weather</span></h2>
@@ -122,10 +122,10 @@
       
       <div class="row featurette">
         <div class="col-md-5">
-          <a href="Blog.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+          <a href="blog.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
         </div>
         <div class="col-md-7">
-            <h2 class="featurette-heading"><a href="Blog.html" style="text-decoration: none">Blog</a> <span class="text-muted"> Post and Catch</span></h2>
+            <h2 class="featurette-heading"><a href="blog.html" style="text-decoration: none">Blog</a> <span class="text-muted"> Post and Catch</span></h2>
           <p class="lead">Theres plenty of fish in the sea, show all your fishing friends that you got the biggest catch! Share techniques, ask questions, and share spots (except for that secrete one).</p>
         </div>
       </div>
