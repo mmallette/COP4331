@@ -116,11 +116,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius:10px;
-<<<<<<< HEAD
     background-image: url('img/water.png');
-=======
-    background-color: #2C7CC3;
->>>>>>> origin/master
 }
 
 .sunscreen {
@@ -129,11 +125,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius:10px;
-<<<<<<< HEAD
     background-image: url('img/sunscreen.png');
-=======
-    background-color: #2C7CC3;
->>>>>>> origin/master
 }
 
 .breezy {
@@ -142,11 +134,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius:10px;
-<<<<<<< HEAD
     background-image: url('img/umbrella.png');
-=======
-    background-color: #2C7CC3;
->>>>>>> origin/master
 }
 
 .inActivePrecaution {
@@ -156,8 +144,4 @@
 
 .activePrecaution {
 	border: 5px outset;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
