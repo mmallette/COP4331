@@ -4,6 +4,7 @@
   <head>
     <title>Florida Fishing</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
   </head>
   
 <!-- NAVBAR ================================================== -->
@@ -46,11 +47,35 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Alvaro's page! <span class="text-muted">This is gray!</span></h2>
-          <p class="lead">Whoa homie this is the very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very  best page ever!</p>
+          <h2 class="featurette-heading">Post <span class="text-muted"> Questions, Tips!</span></h2>
+          <p class="lead">Blah Blah Blog stuff</p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image">
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class='blog'>
+      </div>
+
+      <!-- Button trigger modal -->
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Post!</button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Username: </h4>
+            </div>
+            <div class="modal-body">
+              <textarea id='userInput' rows="7" cols="80" placeholder="Post Your Comment Here..."></textarea> 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -67,5 +92,8 @@
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/blog.js"></script>
+
   </body>
 </html>
