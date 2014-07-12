@@ -54,8 +54,20 @@
 
       <hr class="featurette-divider">
 
-      <div class='blog'>
+      <div class='template'>
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive" src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaNmWLUUUBkcAHe4TvqxDfhaWAoTxwZSY6jJO6t1kw03j0yO1gSg" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+            <h3 class='name'>Fish_Wisper_22</h3>
+            <p class='post'>Caught this monster Red Drum off the Inlet!</p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
       </div>
+
+      <div class='blog'></div>
 
       <!-- Button trigger modal -->
       <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Post!</button>
@@ -66,13 +78,16 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Username: </h4>
+              <h4 class="modal-title" id="myModalLabel">Username: <input type="text" id = 'userName' value="Fish_wisper_22"><br></h4>
             </div>
             <div class="modal-body">
-              <textarea id='userInput' rows="7" cols="80" placeholder="Post Your Comment Here..."></textarea> 
+              <textarea id='userInput' rows="7" cols="80" placeholder="Post Your Comment Here..."></textarea>
+              <hr class="featurette-divider">
+              <p>Click to Add a Photo...</p>
+              <input type="file" id="file-input">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-primary submit">Submit</button>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
