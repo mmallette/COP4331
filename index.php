@@ -44,13 +44,13 @@
     <!-- Sliding Pictures at top of page ================================================== -->
     <div id = "container">
         <div id = 'slide1'>
-            <h1>1st Awesome Photo</h1>
+            <h1>Visit the Research page for all your fishing information</h1>
         </div>    
         <div id = 'slide2'>
-            <h1>2nd Awesome Photo</h1>
+            <h1>Visit the tides page to know when you should fish</h1>
         </div>    
         <div id = 'slide3'>
-            <h1>3rd Awesome Photo</h1>
+            <h1>Brag about your catch on our blog!</h1>
         </div> 
     </div> 
     
@@ -80,11 +80,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading"><a href="alvaro.html" style="text-decoration: none">Alvaro's page</a> <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">this should be a generic descriptor of whats about to go down for the people that click on this page and the greatness they are about to witness. It should be long enough to clearly state where this will take you but not too long, every one hates reading.</p>
+          <h2 class="featurette-heading"><a href="alvaro.html" style="text-decoration: none">Fishing Research</a> <span class="text-muted">for all your fishing knowledge</span></h2>
+          <p class="lead">Before you go out and fish, shouldn't you know what you want to get? Well look no further! Visit the research page to answer all your Florida fishing questions.</p>
         </div>
         <div class="col-md-5">
-          <a href="alvaro.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+          <a href="alvaro.html"><img style="border:0;" class="featurette-image img-responsive" src="http://flyanglersonline.com/travel/florida2004/floridapagetop.jpg" alt="Generic placeholder image"></a>
         </div>
       </div>
 
@@ -94,7 +94,7 @@
       
       <div class="row featurette">
         <div class="col-md-5">
-          <a href="kevin.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+          <a href="kevin.html"><img style="border:0;" class="featurette-image img-responsive" src="http://www.dumpaday.com/wp-content/uploads/2012/08/funny-fish.jpg" alt="Generic placeholder image"></a>
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading"><a href="kevin.html" style="text-decoration: none">Jokes</a> <span class="text-muted"> of the fishing kind.</span></h2>
@@ -108,11 +108,11 @@
       
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading"><a href="ibrahim.html" style="text-decoration: none">Ibrahim's page</a> <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">this should be a generic descriptor of whats about to go down for the people that click on this page and the greatness they are about to witness. It should be long enough to clearly state where this will take you but not too long, every one hates reading.</p>
+          <h2 class="featurette-heading"><a href="ibrahim.html" style="text-decoration: none">Tides</a> <span class="text-muted">,plan for them</span></h2>
+          <p class="lead">Did you know that fish are active depending on the tides? Some fish like to come out at night, while others like the day. Some like low tides while others high tide. Be prepared! Look up when the fish are out so you don't get stuck catching nothing!</p>
         </div>
         <div class="col-md-5">
-            <a href="ibrahim.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+            <a href="ibrahim.html"><img style="border:0;" class="featurette-image img-responsive" src="http://cdn.twitrcovers.com/wp-content/uploads/2013/08/Sun-Moon-Skies-l.jpg" alt="Generic placeholder image"></a>
         </div>
       </div>
 
@@ -122,7 +122,7 @@
       
       <div class="row featurette">
         <div class="col-md-5">
-          <a href="blog.html"><img style="border:0;" class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image"></a>
+          <a href="blog.html"><img style="border:0;" class="featurette-image img-responsive" src="http://www.cleanfish.com/system/images/BAhbBlsHOgZmIjkyMDExLzAzLzI4LzE3LzE4LzM4LzMzNi9XZV9TcGVha19GaXNoX0Jsb2dfSW1hZ2UucG5n/We_Speak_Fish_Blog_Image.png" alt="Generic placeholder image"></a>
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading"><a href="blog.html" style="text-decoration: none">Blog</a> <span class="text-muted"> Post and Catch</span></h2>
