@@ -27,6 +27,7 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Kevin</a></li>
                 <li><a href="ibrahim.html">Ibrahim</a></li>
+                <li><a href="blog.php">Blog</a></li>
               </ul>
             </div>
           </div>
