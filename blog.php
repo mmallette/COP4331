@@ -24,7 +24,7 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
-                <li  class="active"><a href="blog.html">Blog</a></li>
+                <li  class="active"><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="login.php">Login</a></li>
