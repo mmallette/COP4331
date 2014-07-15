@@ -1,4 +1,12 @@
+<?php
 
+    include_once 'dbconnect.php';   // As functions.php is not included
+    include_once 'functions.php';
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    sec_session_start(); 
+    
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +17,7 @@
   
 <!-- NAVBAR ================================================== -->
   <body>
+    
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -24,10 +33,14 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
-                <li  class="active"><a href="blog.html">Blog</a></li>
+                <li  class="active"><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <?php if (login_check($mysqli) == true) : ?>
+                <li><a href="logout.php">Logout</a></li>
+                <?php else : ?>
                 <li><a href="login.php">Login</a></li>
+                <?php endif; ?>
                 <li><a href="joinMember.php">Become a Member</a></li>
               </ul>
             </div>
@@ -39,7 +52,8 @@
 
     <!-- Main Page Content
     ================================================== -->
-
+    <?php if (login_check($mysqli) == true) : ?>
+      <p>Welcome <?php echo htmlentities($_SESSION['username']); ?>!</p>
     <div class="container marketing">
 
       
@@ -110,5 +124,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/blog.js"></script>
 
+  <?php else : ?>
+        <p>
+            <span class="error" >You are not authorized to access this page.</span> Please <a href="login.php">login</a>.
+        </p>
+  <?php endif; ?>
   </body>
 </html>
