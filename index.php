@@ -24,9 +24,10 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="spots.html">Spots</a></li>
-                <li><a href="alvaro.html">Alvaro</a></li>
+                <li><a href="alvaro.html">Fish Id</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
-                <li><a href="ibrahim.html">Tides</a></li>
+                <li><a href="ibrahim.html">Solunar Activity</a></li>
+                <li><a href="tide.html">Tides</a></li>
                 <li><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
