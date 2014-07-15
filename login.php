@@ -1,11 +1,24 @@
+
 <?php
-    
+//http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+    include_once 'dbconnect.php';   // As functions.php is not included
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    include_once 'functions.php';
+    sec_session_start();
+ 
+    if (login_check($mysqli) == true) {
+        $logged = 'in';
+    } else {
+        $logged = 'out';
+    }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Florida Fishing</title>
+    <script type="text/JavaScript" src="js/sha512.js"></script> 
+    <script type="text/JavaScript" src="js/forms.js"></script> 
     <link href="css/style.css" rel="stylesheet">
   </head>
   
@@ -26,6 +39,7 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
+                <li><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="login.php">Login</a></li>
@@ -50,11 +64,18 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Login <span class="text-muted">to see the blog!</span></h2>
           <p class="lead">Please type in your username and password.</p>
-          <form class="pad" name="loginInfo" action="processLogin.php" method="post">
-            Username: <input type="text" name="lUsername" maxlength="20" /> <br />
-            Password: <input type="text" name="lPassword" maxlength="20" /> <br />
-            <input type="submit" name="submit" value="Submit Login Info" /> 
-          </form>
+          <form action="processLogin.php" method="post" name="login_form">                      
+            Email: <input type="text" name="email" />
+            Password: <input type="password" 
+                             name="password" 
+                             id="password"/>
+            <input type="button" 
+                   value="Login" 
+                   onclick="formhash(this.form, this.form.password);" /> 
+            </form>
+            <p>If you don't have a login, please <a href="joinMember.php">register</a></p>
+            <p>If you are done, please <a href="logout.php">log out</a>.</p>
+            <p>You are currently logged <?php echo $logged ?>.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image">
