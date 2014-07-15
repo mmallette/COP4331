@@ -1,4 +1,16 @@
+<?php
 
+    include_once 'dbconnect.php';   // As functions.php is not included
+    include_once 'functions.php';
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    sec_session_start(); 
+    if(login_check($mysqli) == true) {
+            // Add your protected page content here!
+    } else { 
+            echo 'You are not authorized to access this page, please login.';
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +21,8 @@
   
 <!-- NAVBAR ================================================== -->
   <body>
+    <?php if (login_check($mysqli) == true) : ?>
+      <p>Welcome <?php echo htmlentities($_SESSION['username']); ?>!</p>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -24,10 +38,10 @@
                 <li><a href="alvaro.html">Alvaro</a></li>
                 <li><a href="kevin.html">Jokes</a></li>
                 <li><a href="ibrahim.html">Tides</a></li>
-                <li  class="active"><a href="blog.html">Blog</a></li>
+                <li  class="active"><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="login.php">Login</a></li>
+                <li><a href="logout.php">Logout</a></li>
                 <li><a href="joinMember.php">Become a Member</a></li>
               </ul>
             </div>
@@ -110,5 +124,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/blog.js"></script>
 
+  <?php else : ?>
+        <p>
+            <span class="error">You are not authorized to access this page.</span> Please <a href="index.php">login</a>.
+        </p>
+  <?php endif; ?>
   </body>
 </html>
