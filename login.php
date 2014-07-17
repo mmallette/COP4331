@@ -24,6 +24,11 @@
   
 <!-- NAVBAR ================================================== -->
   <body>
+      <?php
+        if (isset($_GET['error'])) {
+            echo '<p class="error">Check your username and password!</p>';
+        }
+        ?> 
     <div class="navbar-wrapper">
       <div class="container">
 
