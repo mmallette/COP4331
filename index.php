@@ -1,5 +1,9 @@
 <?php
     
+    include_once 'dbconnect.php';   // As functions.php is not included
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    include_once 'functions.php';
+    sec_session_start(); 
 ?>
  <!DOCTYPE html>
 
@@ -31,7 +35,11 @@
                 <li><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <?php if (login_check($mysqli) == true) : ?>
+                <li><a href="logout.php">Logout</a></li>
+                <?php else : ?>
                 <li><a href="login.php">Login</a></li>
+                <?php endif; ?>
                 <li><a href="joinMember.php">Become a Member</a></li>
               </ul>
             </div>
