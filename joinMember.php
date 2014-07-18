@@ -14,6 +14,7 @@ include_once 'functions.php';
     <link href="css/style.css" rel="stylesheet">
   </head>
     <body>
+        
         <div class="navbar-wrapper">
         <div class="container">
 
@@ -102,7 +103,11 @@ include_once 'functions.php';
 
       </div>
         
-        
+    <?php
+        if (!empty($error_msg)) {
+            echo "<script type='text/javascript'>alert('$error_msg')</script>";
+        }
+        ?> 
     </body>
 </html>
 
