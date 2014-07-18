@@ -24,11 +24,7 @@
   
 <!-- NAVBAR ================================================== -->
   <body>
-      <?php
-        if (isset($_GET['error'])) {
-            echo '<p class="error">Check your username and password!</p>';
-        }
-        ?> 
+      
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -100,5 +96,10 @@
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <?php
+        if (isset($_GET['error'])) {
+            echo "<script type='text/javascript'>alert('Check your username and password!')</script>";
+        }
+    ?> 
   </body>
 </html>
