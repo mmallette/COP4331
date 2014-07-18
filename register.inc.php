@@ -37,7 +37,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['p'])) {
  
         if ($stmt->num_rows == 1) {
             // A user with this email address already exists
-            $error_msg .= '<p class="error">A user with this email address already exists.</p>';
+            $error_msg .= 'A user with this email address already exists.';
                         $stmt->close();
         }
                 //$stmt->close();
