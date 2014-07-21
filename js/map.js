@@ -73,10 +73,10 @@ function createMarker(place) {
     position: place.geometry.location,
     icon: {
       // Star
-      path: 'M -32,0 -24,16 0,24 24,24 40,16 48,8 56,16 64,24 64,-24 56,-16 48,-8 40,-16 24,-24 0,-24 -16,-24 z',
+      path: 'M -8,0 -6,4 0,6 6,6 10,4 12,2 14,4 16,6 16,-6 14,-4 12,-2 10,-4 6,-6 0,-6 -4,-6 z',
       fillColor: '#E65C00',
       fillOpacity: 1,
-      scale: 1/4,
+      scale: 1,
       strokeColor: '#000000',
       strokeWeight: 1
     }
