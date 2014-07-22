@@ -1,105 +1,26 @@
-
 <?php
-//http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
-    include_once 'dbconnect.php';   // As functions.php is not included
-    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
-    include_once 'functions.php';
-    sec_session_start();
+
+include_once 'dbconnect.php';
+$mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+include_once 'functions.php';
  
-    if (login_check($mysqli) == true) {
-        $logged = 'in';
+sec_session_start(); // Our custom secure way of starting a PHP session.
+ 
+if (isset($_POST['email'], $_POST['p'])) {
+    $email = $_POST['email'];
+    $password = $_POST['p']; // The hashed password.
+ 
+    if (login($email, $password, $mysqli) == true) {
+        // Login success 
+        header('Location: ../blog.php');
     } else {
-        $logged = 'out';
-    }
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Florida Fishing</title>
-    <script type="text/JavaScript" src="js/sha512.js"></script> 
-    <script type="text/JavaScript" src="js/forms.js"></script> 
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  
-<!-- NAVBAR ================================================== -->
-  <body>
-      
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.php">Fishing Florida</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="spots.html">Spots</a></li>
-                <li><a href="alvaro.html">Alvaro</a></li>
-                <li><a href="kevin.html">Jokes</a></li>
-                <li><a href="ibrahim.html">Tides</a></li>
-                <li><a href="blog.php">Blog</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="login.php">Login</a></li>
-                <li><a href="joinMember.php">Become a Member</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Main Page Content
-    ================================================== -->
-
-    <div class="container marketing">
-
-      
-      <!-- here is the content-->
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Login <span class="text-muted">to see the blog!</span></h2>
-          <p class="lead">Please type in your username and password.</p>
-          <form action="processLogin.php" method="post" name="login_form">                      
-            Email: <input type="text" name="email" />
-            Password: <input type="password" 
-                             name="password" 
-                             id="password"/>
-            <input type="button" 
-                   value="Login" 
-                   onclick="formhash(this.form, this.form.password);" /> 
-            </form>
-            <p>If you don't have a login, please <a href="joinMember.php">register</a></p>
-            <p>If you are done, please <a href="logout.php">log out</a>.</p>
-            <p>You are currently logged <?php echo $logged ?>.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="http://stockfresh.com/files/a/anatolym/m/18/144240_stock-photo-3d-small-people---fisherman-and-fish.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
-     
-      <hr class="featurette-divider">
-
-      <!-- FOOTER -->
-      <footer>
+        // Login failed 
         
-        <p>&copy; 2014 Florida Fishing, Inc. &middot; <a href="terms.html">Terms</a></p>
-      </footer>
+        header('Location: ../login.php?error=1');
+        
+    }
+} else {
+    // The correct POST variables were not sent to this page. 
+    echo 'Invalid Request';
+}
 
-    </div><!-- /.container -->
-
-
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <?php
-        if (isset($_GET['error'])) {
-            echo "<script type='text/javascript'>alert('Check your username and password!')</script>";
-        }
-    ?> 
-  </body>
-</html>
