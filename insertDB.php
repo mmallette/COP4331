@@ -44,5 +44,5 @@
       die('Error: ' . mysqli_error($mysqli));
     }
     
-    
+    header('Location: ../blog.php');
 
