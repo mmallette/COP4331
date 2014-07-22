@@ -5,7 +5,6 @@
     $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
     sec_session_start(); 
     
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,8 +52,7 @@
 
     <!-- Main Page Content
     ================================================== -->
-    <?php if (login_check($mysqli) == true) : ?>
-      <p>Welcome <?php echo htmlentities($_SESSION['username']); ?>!</p>
+    
     <div class="container marketing">
 
       
@@ -62,52 +60,87 @@
 
       <div class="row featurette">
         <div class="col-md-7">
+          <?php if (login_check($mysqli) == true) : ?>
+          <p class= "lead">Welcome <?php echo htmlentities($_SESSION['username']); ?>!</p>  
           <h2 class="featurette-heading">Post <span class="text-muted"> Questions, Tips!</span></h2>
-          <p class="lead">Blah Blah Blog stuff</p>
+         
         </div>
       </div>
 
       <hr class="featurette-divider">
-
+      
+      <!-- Button trigger modal -->
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Post!</button>
+<?php 
+    $result = mysqli_query($mysqli,"SELECT * FROM blog");
+      
+    while($row = mysqli_fetch_array($result)) { 
+        $file = $row['picName'];
+          ?>
       <div class='template'>
         <div class="row featurette">
           <div class="col-md-5">
-            <img class="featurette-image img-responsive" src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaNmWLUUUBkcAHe4TvqxDfhaWAoTxwZSY6jJO6t1kw03j0yO1gSg" alt="Generic placeholder image">
+            <?php if ($file != "") : ?>
+            <img class="featurette-image img-responsive" src= "<?php echo $file ?>" >
+            <?php else : ?>
+            <img class="featurette-image img-responsive" src= "css/img/SpeakFish.png" alt="Generic placeholder image">
+            <?php endif; ?>
           </div>
           <div class="col-md-7">
-            <h3 class='name'>Fish_Wisper_22</h3>
-            <p class='post'>Caught this monster Red Drum off the Inlet!</p>
+            <h3 class='name'><?php echo $row['username']; ?></h3>
+            <p class='post'><?php echo $row['text']; ?></p>
           </div>
         </div>
         <hr class="featurette-divider">
       </div>
 
       <div class='blog'></div>
-
-      <!-- Button trigger modal -->
-      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Post!</button>
+    <?php } ?>
+      
 
       <!-- Modal -->
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Username: <input type="text" id = 'userName' value="Fish_wisper_22"><br></h4>
-            </div>
-            <div class="modal-body">
-              <textarea id='userInput' rows="7" cols="80" placeholder="Post Your Comment Here..."></textarea>
-              <hr class="featurette-divider">
-              <p>Click to Add a Photo...</p>
-              <input type="file" id="file-input">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary submit">Submit</button>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Post by: <?php echo htmlentities($_SESSION['username']); ?>  </h4>
+              </div>
+              <form action = "insertDB.php" method="post" enctype="multipart/form-data">
+              
+              <div class="modal-body">
+                    <textarea id='userInput' rows="7" cols="80" placeholder="Post Your Comment Here..." name ="text" ></textarea>
+                    <hr class="featurette-divider">
+                      <p>Click to Add a Photo...</p>
+                      <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                      <input name = "pic" type="file" id="userfile">
+                      <section>
+                        <div class="checkboxFour" id="question">
+
+                            <input type="checkbox" value="1" id="checkboxFourInput" name="question" />
+                            <label for="checkboxFourInput"></label>
+                            </div>
+                          <label for="question">Question?</label>
+                      </section>
+                      <section>
+                        <div class="checkboxFour" id="tale">
+
+                                <input type="checkbox" value="1" id="checkboxFourInput2" name="tale" /> 
+                                <label for="checkboxFourInput2" ></label>
+                        </div>
+                      <label for="tale">Tell a Tale</label>
+                    </section>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary submit" name = "submit">Submit</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              </form>
             </div>
           </div>
         </div>
-      </div>
+     
 
       <hr class="featurette-divider">
 
