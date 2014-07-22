@@ -71,6 +71,8 @@
       
       <!-- Button trigger modal -->
       <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Post!</button>
+
+      <hr class="featurette-divider">
 <?php 
     $result = mysqli_query($mysqli,"SELECT * FROM blog");
       
