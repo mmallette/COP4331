@@ -1,6 +1,6 @@
 <?php
     
-    include_once 'dbconnect.php';   // As functions.php is not included
+    include_once 'dbconnect.php';   
     $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
     include_once 'functions.php';
     sec_session_start(); 
