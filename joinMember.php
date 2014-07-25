@@ -1,9 +1,9 @@
 <?php
-    include_once 'dbconnect.php';   // As functions.php is not included
+    include_once 'dbconnect.php';  
     $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
-
-include_once 'register.inc.php';
-include_once 'functions.php';
+    include_once 'register.inc.php';
+    include_once 'functions.php';
+    sec_session_start(); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,15 +26,19 @@ include_once 'functions.php';
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="spots.html">Spots</a></li>
-                <li><a href="alvaro.html">Fish Id</a></li>
-                <li><a href="kevin.html">Jokes</a></li><li>
-                <li><a href="ibrahim.html">Solunar Activity</a></li>
-                <li><a href="tide.html">Tides</a></li>
+                <li><a href="spots.php">Spots</a></li>
+                <li><a href="alvaro.php">Fish Id</a></li>
+                <li><a href="kevin.php">Jokes</a></li><li>
+                <li><a href="ibrahim.php">Solunar Activity</a></li>
+                <li><a href="tide.php">Tides</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                  <?php if (login_check($mysqli) == true) : ?>
+                  <li><a href="logout.php">Logout</a></li>
+                  <?php else : ?>
                   <li><a href="login.php">Login</a></li>
+                  <?php endif; ?>
                   <li class="active"><a href="joinMember.php">Become a Member</a></li>
                 </ul>
               </div>
@@ -47,6 +51,7 @@ include_once 'functions.php';
         <div class="container marketing">
         <div class="row featurette">
           <div class="col-md-7">
+            <?php if (login_check($mysqli) == false) : ?>
             <h2 class="featurette-heading">Join Today! <span class="text-muted">Gain access to the stories and advice of other fishermen!</span></h2>
                 <p class="lead">Please enter the information below to join.</p>
                 <ul>
@@ -99,11 +104,15 @@ include_once 'functions.php';
         <!-- FOOTER -->
         <footer>
 
-          <p>&copy; 2014 Florida Fishing, Inc. &middot; <a href="terms.html">Terms</a></p>
+          <p>&copy; 2014 Florida Fishing, Inc. &middot; <a href="terms.php">Terms</a></p>
         </footer>
 
       </div>
-        
+    <?php else : ?>
+    <p>
+        <span class="error" >It seems you already have an account! If you are a new user, </span> please <a href="logout.php">logout</a>.
+    </p>
+    <?php endif; ?>
     <?php
         if (!empty($error_msg)) {
             echo "<script type='text/javascript'>alert('$error_msg')</script>";
