@@ -1,3 +1,10 @@
+<?php
+    include_once 'dbconnect.php';   
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    include_once 'functions.php';
+    sec_session_start();
+ 
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,15 +26,19 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
-                <li class="active"><a href="spots.html">Spots</a></li>
-                <li><a href="alvaro.html">Fish Id</a></li>
-                <li><a href="kevin.html">Jokes</a></li>
-                <li><a href="ibrahim.html">Solunar Activity</a></li>
-                <li><a href="tide.html">Tides</a></li>
+                <li class="active"><a href="spots.php">Spots</a></li>
+                <li><a href="alvaro.php">Fish Id</a></li>
+                <li><a href="kevin.php">Jokes</a></li>
+                <li><a href="ibrahim.php">Solunar Activity</a></li>
+                <li><a href="tide.php">Tides</a></li>
                 <li><a href="blog.php">Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <?php if (login_check($mysqli) == true) : ?>
+                <li><a href="logout.php">Logout</a></li>
+                <?php else : ?>
                 <li><a href="login.php">Login</a></li>
+                <?php endif; ?>
                 <li><a href="joinMember.php">Become a Member</a></li>
               </ul>
             </div>
@@ -119,7 +130,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Florida Fishing, Inc. &middot; <a href="terms.html">Terms</a></p>
+        <p>&copy; 2014 Florida Fishing, Inc. &middot; <a href="terms.php">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
