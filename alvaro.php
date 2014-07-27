@@ -4429,10 +4429,10 @@
                   <p>44 lb 3 oz, caught near Ft. Myers</p>
                   <hr class="featurette-divider">
                   <h4>Fishing Tips and Facts<h4>
-                  <p>They orient themselves to face moving water and wait for prey to be carried down the current. Snook jump clear of the water, and burst into long runs. Use live pinfish, small mullet, shrimp, or sardines free-lined or fished off the bottom with a fish finder rig. They take a large variety of lures based on water conditions. Beware of the snook’s razor-sharp gill covers! Snook make excellent table fare.</p>
+                  <p>They orient themselves to face moving water and wait for prey to be carried down the current. Snook jump clear of the water, and burst into long runs. Use live pinfish, small mullet, shrimp, or sardines free-lined or fished off the bottom with a fish finder rig. They take a large variety of lures based on water conditions. Beware of the snooks razor-sharp gill covers! Snook make excellent table fare.</p>
                   <hr class="featurette-divider">
                   <h4>Additional Information<h4>
-                  <p>Snook cannot tolerate water temperatures below 60˚F.  Also, snook can tolerate wholly fresh or saltwater.</p>
+                  <p>Snook cannot tolerate water temperatures below 60F.  Also, snook can tolerate wholly fresh or saltwater.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
