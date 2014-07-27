@@ -1,4 +1,10 @@
-
+<?php
+    include_once 'dbconnect.php';   
+    $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+    include_once 'functions.php';
+    sec_session_start();
+ 
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
