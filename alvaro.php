@@ -59,7 +59,7 @@
           <h4>American Eel<h4>
           <button type='button' class='button AmericanEel' data-toggle="modal" data-target="#AmericanEel"></button>
           <div class="modal fade" id="AmericanEel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -107,7 +107,7 @@
           <h4>American Shad<h4>
           <button type='button' class='button AmericanShad' data-toggle="modal" data-target="#AmericanShad"></button>
           <div class="modal fade" id="AmericanShad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -143,7 +143,7 @@
           <h4>Black Crappie<h4>
           <button type='button' class='button BlackCrappie' data-toggle="modal" data-target="#BlackCrappie"></button>
           <div class="modal fade" id="BlackCrappie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -182,7 +182,7 @@
           <h4>Blue Catfish<h4>
           <button type='button' class='button BlueCatfish' data-toggle="modal" data-target="#BlueCatfish"></button>
           <div class="modal fade" id="BlueCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -218,7 +218,7 @@
           <h4>Bluegill<h4>
           <button type='button' class='button Bluegill' data-toggle="modal" data-target="#Bluegill"></button>
           <div class="modal fade" id="Bluegill" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -254,7 +254,7 @@
           <h4>Bowfin<h4>
           <button type='button' class='button Bowfin' data-toggle="modal" data-target="#Bowfin"></button>
           <div class="modal fade" id="Bowfin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -294,7 +294,7 @@
           <h4>Brown Bullhead<h4>
           <button type='button' class='button BrownBullhead' data-toggle="modal" data-target="#BrownBullhead"></button>
           <div class="modal fade" id="BrownBullhead" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -330,7 +330,7 @@
           <h4>Chain Pickerel<h4>
           <button type='button' class='button ChainPickerel' data-toggle="modal" data-target="#ChainPickerel"></button>
           <div class="modal fade" id="ChainPickerel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -366,7 +366,7 @@
           <h4>Channel Catfish<h4>
           <button type='button' class='button ChannelCatfish' data-toggle="modal" data-target="#ChannelCatfish"></button>
           <div class="modal fade" id="ChannelCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -404,7 +404,7 @@
           <h4>Flathead Catfish<h4>
           <button type='button' class='button FlatheadCatfish' data-toggle="modal" data-target="#FlatheadCatfish"></button>
           <div class="modal fade" id="FlatheadCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -440,7 +440,7 @@
           <h4>Florida Gar<h4>
           <button type='button' class='button FloridaGar' data-toggle="modal" data-target="#FloridaGar"></button>
           <div class="modal fade" id="FloridaGar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -476,7 +476,7 @@
           <h4>Largemouth Bass<h4>
           <button type='button' class='button LargemouthBass' data-toggle="modal" data-target="#LargemouthBass"></button>
           <div class="modal fade" id="LargemouthBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -513,7 +513,7 @@
           <h4>Redbreast Sunfish<h4>
           <button type='button' class='button RedbreastSunfish' data-toggle="modal" data-target="#RedbreastSunfish"></button>
           <div class="modal fade" id="RedbreastSunfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -549,7 +549,7 @@
           <h4>Redear Sunfish<h4>
           <button type='button' class='button RedearSunfish' data-toggle="modal" data-target="#RedearSunfish"></button>
           <div class="modal fade" id="RedearSunfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -585,7 +585,7 @@
           <h4>Shoal Bass<h4>
           <button type='button' class='button ShoalBass' data-toggle="modal" data-target="#ShoalBass"></button>
           <div class="modal fade" id="ShoalBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -622,7 +622,7 @@
           <h4>Spotted Bass<h4>
           <button type='button' class='button SpottedBass' data-toggle="modal" data-target="#SpottedBass"></button>
           <div class="modal fade" id="SpottedBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -658,7 +658,7 @@
           <h4>Spotted Sunfish<h4>
           <button type='button' class='button SpottedSunfish' data-toggle="modal" data-target="#SpottedSunfish"></button>
           <div class="modal fade" id="SpottedSunfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -694,7 +694,7 @@
           <h4>Striped Bass<h4>
           <button type='button' class='button StripedBass' data-toggle="modal" data-target="#StripedBass"></button>
           <div class="modal fade" id="StripedBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -731,7 +731,7 @@
           <h4>Sucker<h4>
           <button type='button' class='button Sucker' data-toggle="modal" data-target="#Sucker"></button>
           <div class="modal fade" id="Sucker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -767,7 +767,7 @@
           <h4>Sunshine Bass<h4>
           <button type='button' class='button SunshineBass' data-toggle="modal" data-target="#SunshineBass"></button>
           <div class="modal fade" id="SunshineBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -803,7 +803,7 @@
           <h4>Suwannee Bass<h4>
           <button type='button' class='button SuwanneeBass' data-toggle="modal" data-target="#SuwanneeBass"></button>
           <div class="modal fade" id="SuwanneeBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -840,7 +840,7 @@
           <h4>Warmouth<h4>
           <button type='button' class='button Warmouth' data-toggle="modal" data-target="#Warmouth"></button>
           <div class="modal fade" id="Warmouth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -876,7 +876,7 @@
           <h4>White Bass<h4>
           <button type='button' class='button WhiteBass' data-toggle="modal" data-target="#WhiteBass"></button>
           <div class="modal fade" id="WhiteBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -912,7 +912,7 @@
           <h4>White Catfish<h4>
           <button type='button' class='button WhiteCatfish' data-toggle="modal" data-target="#WhiteCatfish"></button>
           <div class="modal fade" id="WhiteCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -949,7 +949,7 @@
           <h4>Yellow Bullhead<h4>
           <button type='button' class='button YellowBullhead' data-toggle="modal" data-target="#YellowBullhead"></button>
           <div class="modal fade" id="YellowBullhead" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -985,7 +985,7 @@
           <h4>Black Acaria<h4>
           <button type='button' class='button BlackAcaria' data-toggle="modal" data-target="#BlackAcaria"></button>
           <div class="modal fade" id="BlackAcaria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1022,7 +1022,7 @@
           <h4>Blue Tilapia<h4>
           <button type='button' class='button BlueTilapia' data-toggle="modal" data-target="#BlueTilapia"></button>
           <div class="modal fade" id="BlueTilapia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1061,7 +1061,7 @@
           <h4>Brown Hoplo<h4>
           <button type='button' class='button BrownHoplo' data-toggle="modal" data-target="#BrownHoplo"></button>
           <div class="modal fade" id="BrownHoplo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1098,7 +1098,7 @@
           <h4>Bullseye Snakehead<h4>
           <button type='button' class='button BullseyeSnakehead' data-toggle="modal" data-target="#BullseyeSnakehead"></button>
           <div class="modal fade" id="BullseyeSnakehead" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1135,7 +1135,7 @@
           <h4>Butterfly Peacock<h4>
           <button type='button' class='button ButterflyPeacock' data-toggle="modal" data-target="#ButterflyPeacock"></button>
           <div class="modal fade" id="ButterflyPeacock" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1174,7 +1174,7 @@
           <h4>Clown Knifefish<h4>
           <button type='button' class='button ClownKnifefish' data-toggle="modal" data-target="#ClownKnifefish"></button>
           <div class="modal fade" id="ClownKnifefish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1211,7 +1211,7 @@
           <h4>Common Carp<h4>
           <button type='button' class='button CommonCarp' data-toggle="modal" data-target="#CommonCarp"></button>
           <div class="modal fade" id="CommonCarp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1248,7 +1248,7 @@
           <h4>Grass Carp<h4>
           <button type='button' class='button GrassCarp' data-toggle="modal" data-target="#GrassCarp"></button>
           <div class="modal fade" id="GrassCarp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1287,7 +1287,7 @@
           <h4>Jaguar Guapote<h4>
           <button type='button' class='button JaguarGuapote' data-toggle="modal" data-target="#JaguarGuapote"></button>
           <div class="modal fade" id="JaguarGuapote" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1324,7 +1324,7 @@
           <h4>Mayan Cichlid<h4>
           <button type='button' class='button MayanCichlid' data-toggle="modal" data-target="#MayanCichlid"></button>
           <div class="modal fade" id="MayanCichlid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1361,7 +1361,7 @@
           <h4>Midas Cichild<h4>
           <button type='button' class='button MidasCichild' data-toggle="modal" data-target="#MidasCichild"></button>
           <div class="modal fade" id="MidasCichild" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1400,7 +1400,7 @@
           <h4>Oscar<h4>
           <button type='button' class='button Oscar' data-toggle="modal" data-target="#Oscar"></button>
           <div class="modal fade" id="Oscar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1437,7 +1437,7 @@
           <h4>Piranha<h4>
           <button type='button' class='button Piranha' data-toggle="modal" data-target="#Piranha"></button>
           <div class="modal fade" id="Piranha" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1473,7 +1473,7 @@
           <h4>Spotted Tilapia<h4>
           <button type='button' class='button SpottedTilapia' data-toggle="modal" data-target="#SpottedTilapia"></button>
           <div class="modal fade" id="SpottedTilapia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1512,7 +1512,7 @@
           <h4>Sailfin Catfish<h4>
           <button type='button' class='button SailfinCatfish' data-toggle="modal" data-target="#SailfinCatfish"></button>
           <div class="modal fade" id="SailfinCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1549,7 +1549,7 @@
           <h4>Common Carp<h4>
           <button type='button' class='button CommonCarp' data-toggle="modal" data-target="#CommonCarp"></button>
           <div class="modal fade" id="CommonCarp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1586,7 +1586,7 @@
           <h4>Grass Carp<h4>
           <button type='button' class='button GrassCarp' data-toggle="modal" data-target="#GrassCarp"></button>
           <div class="modal fade" id="GrassCarp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1645,7 +1645,7 @@
           <h4>Blue Marlin<h4>
           <button type='button' class='button BlueMarlin' data-toggle="modal" data-target="#BlueMarlin"></button>
           <div class="modal fade" id="BlueMarlin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1684,7 +1684,7 @@
           <h4>Longbill Spearfish<h4>
           <button type='button' class='button LongBillSpearfish' data-toggle="modal" data-target="#LongBillSpearfish"></button>
           <div class="modal fade" id="LongBillSpearfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1725,7 +1725,7 @@
           <h4>Sailfish<h4>
           <button type='button' class='button Sailfish' data-toggle="modal" data-target="#Sailfish"></button>
           <div class="modal fade" id="Sailfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1768,7 +1768,7 @@
           <h4>White Marlin<h4>
           <button type='button' class='button WhiteMarlin' data-toggle="modal" data-target="#WhiteMarlin"></button>
           <div class="modal fade" id="WhiteMarlin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1804,7 +1804,7 @@
           <h4>Swordfish<h4>
           <button type='button' class='button Swordfish' data-toggle="modal" data-target="#Swordfish"></button>
           <div class="modal fade" id="Swordfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1840,7 +1840,7 @@
           <h4>Bluefish<h4>
           <button type='button' class='button Bluefish' data-toggle="modal" data-target="#Bluefish"></button>
           <div class="modal fade" id="Bluefish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1879,7 +1879,7 @@
           <h4>Bonefish<h4>
           <button type='button' class='button Bonefish' data-toggle="modal" data-target="#Bonefish"></button>
           <div class="modal fade" id="Bonefish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1915,7 +1915,7 @@
           <h4>Gafftopsail Catfish<h4>
           <button type='button' class='button GafftopsailCatfish' data-toggle="modal" data-target="#GafftopsailCatfish"></button>
           <div class="modal fade" id="GafftopsailCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -1959,7 +1959,7 @@
           <h4>Hardhead Catfish<h4>
           <button type='button' class='button HardheadCatfish' data-toggle="modal" data-target="#HardheadCatfish"></button>
           <div class="modal fade" id="HardheadCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2006,7 +2006,7 @@
           <h4>Cobia<h4>
           <button type='button' class='button Cobia' data-toggle="modal" data-target="#Cobia"></button>
           <div class="modal fade" id="Cobia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2042,7 +2042,7 @@
           <h4>Dolphinfish<h4>
           <button type='button' class='button Dolphinfish' data-toggle="modal" data-target="#Dolphinfish"></button>
           <div class="modal fade" id="Dolphinfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2078,7 +2078,7 @@
           <h4>Atlantic Croaker<h4>
           <button type='button' class='button AtlanticCroaker' data-toggle="modal" data-target="#AtlanticCroaker"></button>
           <div class="modal fade" id="AtlanticCroaker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2117,7 +2117,7 @@
           <h4>Black Drum<h4>
           <button type='button' class='button BlackDrum' data-toggle="modal" data-target="#BlackDrum"></button>
           <div class="modal fade" id="BlackDrum" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2153,7 +2153,7 @@
           <h4>Red Drum<h4>
           <button type='button' class='button RedDrum' data-toggle="modal" data-target="#RedDrum"></button>
           <div class="modal fade" id="RedDrum" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2189,7 +2189,7 @@
           <h4> Sand Seatrout<h4>
           <button type='button' class='button SandSeatrout' data-toggle="modal" data-target="#SandSeatrout"></button>
           <div class="modal fade" id="SandSeatrout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2228,7 +2228,7 @@
           <h4>Silver Seatrout<h4>
           <button type='button' class='button SilverSeatrout' data-toggle="modal" data-target="#SilverSeatrout"></button>
           <div class="modal fade" id="SilverSeatrout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2264,7 +2264,7 @@
           <h4>Silver Perch<h4>
           <button type='button' class='button SilverPerch' data-toggle="modal" data-target="#SilverPerch"></button>
           <div class="modal fade" id="SilverPerch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2300,7 +2300,7 @@
           <h4>Weakfish<h4>
           <button type='button' class='button Weakfish' data-toggle="modal" data-target="#Weakfish"></button>
           <div class="modal fade" id="Weakfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2339,7 +2339,7 @@
           <h4>Spotted Seatrout<h4>
           <button type='button' class='button SpottedSeatrout' data-toggle="modal" data-target="#SpottedSeatrout"></button>
           <div class="modal fade" id="SpottedSeatrout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2375,7 +2375,7 @@
           <h4>Gulf Flounder<h4>
           <button type='button' class='button GulfFlounder' data-toggle="modal" data-target="#GulfFlounder"></button>
           <div class="modal fade" id="GulfFlounder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2411,7 +2411,7 @@
           <h4>Black Grouper<h4>
           <button type='button' class='button BlackGrouper' data-toggle="modal" data-target="#BlackGrouper"></button>
           <div class="modal fade" id="BlackGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2450,7 +2450,7 @@
           <h4>Gag Grouper<h4>
           <button type='button' class='button GagGrouper' data-toggle="modal" data-target="#GagGrouper"></button>
           <div class="modal fade" id="GagGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2486,7 +2486,7 @@
           <h4>Goliath Grouper<h4>
           <button type='button' class='button GoliathGrouper' data-toggle="modal" data-target="#GoliathGrouper"></button>
           <div class="modal fade" id="GoliathGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2522,7 +2522,7 @@
           <h4>Nassau Grouper<h4>
           <button type='button' class='button NassauGrouper' data-toggle="modal" data-target="#NassauGrouper"></button>
           <div class="modal fade" id="NassauGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2561,7 +2561,7 @@
           <h4>Red Grouper<h4>
           <button type='button' class='button RedGrouper' data-toggle="modal" data-target="#RedGrouper"></button>
           <div class="modal fade" id="RedGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2597,7 +2597,7 @@
           <h4>Scamp<h4>
           <button type='button' class='button Scamp' data-toggle="modal" data-target="#Scamp"></button>
           <div class="modal fade" id="Scamp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2633,7 +2633,7 @@
           <h4>Yellowfin Grouper<h4>
           <button type='button' class='button YellowfinGrouper' data-toggle="modal" data-target="#YellowfinGrouper"></button>
           <div class="modal fade" id="YellowfinGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2672,7 +2672,7 @@
           <h4>Yellowmouth Grouper<h4>
           <button type='button' class='button YellowmouthGrouper' data-toggle="modal" data-target="#YellowmouthGrouper"></button>
           <div class="modal fade" id="YellowmouthGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2708,7 +2708,7 @@
           <h4>Warsaw Grouper<h4>
           <button type='button' class='button WarsawGrouper' data-toggle="modal" data-target="#WarsawGrouper"></button>
           <div class="modal fade" id="WarsawGrouper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2744,7 +2744,7 @@
           <h4>White Grunt<h4>
           <button type='button' class='button WhiteGrunt' data-toggle="modal" data-target="#WhiteGrunt"></button>
           <div class="modal fade" id="WhiteGrunt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2783,7 +2783,7 @@
           <h4>American Shad<h4>
           <button type='button' class='button AmericanShad' data-toggle="modal" data-target="#AmericanShad"></button>
           <div class="modal fade" id="AmericanShad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2819,7 +2819,7 @@
           <h4>Almaco Jack<h4>
           <button type='button' class='button AlmacoJack ' data-toggle="modal" data-target="#AlmacoJack "></button>
           <div class="modal fade" id="AlmacoJack " tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2855,7 +2855,7 @@
           <h4>Banded Rudderfish<h4>
           <button type='button' class='button BandedRudderfish' data-toggle="modal" data-target="#BandedRudderfish"></button>
           <div class="modal fade" id="BandedRudderfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2894,7 +2894,7 @@
           <h4>Blue Runner<h4>
           <button type='button' class='button BlueRunner' data-toggle="modal" data-target="#BlueRunner"></button>
           <div class="modal fade" id="BlueRunner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2930,7 +2930,7 @@
           <h4>Crevalle Jack<h4>
           <button type='button' class='button CrevalleJack' data-toggle="modal" data-target="#CrevalleJack"></button>
           <div class="modal fade" id="CrevalleJack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -2966,7 +2966,7 @@
           <h4>Greater Amberjack<h4>
           <button type='button' class='button GreaterAmberjack' data-toggle="modal" data-target="#GreaterAmberjack"></button>
           <div class="modal fade" id="GreaterAmberjack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3005,7 +3005,7 @@
           <h4>Lesser Amberjack<h4>
           <button type='button' class='button LesserAmberjack' data-toggle="modal" data-target="#LesserAmberjack"></button>
           <div class="modal fade" id="LesserAmberjack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3041,7 +3041,7 @@
           <h4>Florida Pompano<h4>
           <button type='button' class='button FloridaPompano' data-toggle="modal" data-target="#FloridaPompano"></button>
           <div class="modal fade" id="FloridaPompano" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3077,7 +3077,7 @@
           <h4>Palometa<h4>
           <button type='button' class='button Palometa' data-toggle="modal" data-target="#Palometa"></button>
           <div class="modal fade" id="Palometa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3116,7 +3116,7 @@
           <h4>Blue Catfish<h4>
           <button type='button' class='button BlueCatfish' data-toggle="modal" data-target="#BlueCatfish"></button>
           <div class="modal fade" id="BlueCatfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3152,7 +3152,7 @@
           <h4>Permit<h4>
           <button type='button' class='button Permit' data-toggle="modal" data-target="#Permit"></button>
           <div class="modal fade" id="Permit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3188,7 +3188,7 @@
           <h4>Cero Mackerel<h4>
           <button type='button' class='button CeroMackerel' data-toggle="modal" data-target="#CeroMackerel"></button>
           <div class="modal fade" id="CeroMackerel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3227,7 +3227,7 @@
           <h4>King Mackerel<h4>
           <button type='button' class='button KingMackerel' data-toggle="modal" data-target="#KingMackerel"></button>
           <div class="modal fade" id="KingMackerel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3263,7 +3263,7 @@
           <h4>Spanish Mackerel<h4>
           <button type='button' class='button SpanishMackerel' data-toggle="modal" data-target="#SpanishMackerel"></button>
           <div class="modal fade" id="SpanishMackerel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3299,7 +3299,7 @@
           <h4>Wahoo<h4>
           <button type='button' class='button Wahoo' data-toggle="modal" data-target="#Wahoo"></button>
           <div class="modal fade" id="Wahoo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3338,7 +3338,7 @@
           <h4>Fantail Mullet<h4>
           <button type='button' class='button FantailMullet' data-toggle="modal" data-target="#FantailMullet"></button>
           <div class="modal fade" id="FantailMullet" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3374,7 +3374,7 @@
           <h4>Striped Mullet<h4>
           <button type='button' class='button StripedMullet' data-toggle="modal" data-target="#StripedMullet"></button>
           <div class="modal fade" id="StripedMullet" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3410,7 +3410,7 @@
           <h4>Jolthead Porgy<h4>
           <button type='button' class='button JoltheadPorgy' data-toggle="modal" data-target="#JoltheadPorgy"></button>
           <div class="modal fade" id="JoltheadPorgy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3449,7 +3449,7 @@
           <h4>Knobbed Porgy<h4>
           <button type='button' class='button KnobbedPorgy' data-toggle="modal" data-target="#KnobbedPorgy"></button>
           <div class="modal fade" id="KnobbedPorgy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3485,7 +3485,7 @@
           <h4>Pinfish<h4>
           <button type='button' class='button Pinfish' data-toggle="modal" data-target="#Pinfish"></button>
           <div class="modal fade" id="Pinfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3521,7 +3521,7 @@
           <h4>Red Porgy<h4>
           <button type='button' class='button RedPorgy' data-toggle="modal" data-target="#RedPorgy"></button>
           <div class="modal fade" id="RedPorgy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3560,7 +3560,7 @@
           <h4>Sheepshead<h4>
           <button type='button' class='button Sheepshead' data-toggle="modal" data-target="#Sheepshead"></button>
           <div class="modal fade" id="Sheepshead" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3596,7 +3596,7 @@
           <h4>Bank Sea Bass<h4>
           <button type='button' class='button BankSeaBass' data-toggle="modal" data-target="#BankSeaBass"></button>
           <div class="modal fade" id="BankSeaBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3632,7 +3632,7 @@
           <h4>Black Sea Bass<h4>
           <button type='button' class='button BlackSeaBass' data-toggle="modal" data-target="#BlackSeaBass"></button>
           <div class="modal fade" id="BlackSeaBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3671,7 +3671,7 @@
           <h4>Rock Sea Bass<h4>
           <button type='button' class='button RockSeaBass' data-toggle="modal" data-target="#RockSeaBass"></button>
           <div class="modal fade" id="RockSeaBass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3707,7 +3707,7 @@
           <h4>Atlantic Sharpnose Shark<h4>
           <button type='button' class='button AtlanticSharpnoseShark' data-toggle="modal" data-target="#AtlanticSharpnoseShark"></button>
           <div class="modal fade" id="AtlanticSharpnoseShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3743,7 +3743,7 @@
           <h4>Bonnethead Shark<h4>
           <button type='button' class='button BonnetheadShark' data-toggle="modal" data-target="#BonnetheadShark"></button>
           <div class="modal fade" id="BonnetheadShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3782,7 +3782,7 @@
           <h4>Blacktip Shark<h4>
           <button type='button' class='button BlacktipShark' data-toggle="modal" data-target="#BlacktipShark"></button>
           <div class="modal fade" id="BlacktipShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3818,7 +3818,7 @@
           <h4>Sandbar Shark<h4>
           <button type='button' class='button SandbarShark' data-toggle="modal" data-target="#SandbarShark"></button>
           <div class="modal fade" id="SandbarShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3854,7 +3854,7 @@
           <h4>Scalloped Hammerhead Shark<h4>
           <button type='button' class='button ScallopedHammerheadShark' data-toggle="modal" data-target="#ScallopedHammerheadShark"></button>
           <div class="modal fade" id="ScallopedHammerheadShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3893,7 +3893,7 @@
           <h4>Shortfin Mako Shark<h4>
           <button type='button' class='button ShortfinMakoShark' data-toggle="modal" data-target="#ShortfinMakoShark"></button>
           <div class="modal fade" id="ShortfinMakoShark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3929,7 +3929,7 @@
           <h4>Blackfin Snapper<h4>
           <button type='button' class='button BlackfinSnapper' data-toggle="modal" data-target="#BlackfinSnapper"></button>
           <div class="modal fade" id="BlackfinSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -3965,7 +3965,7 @@
           <h4>Cubera Snapper<h4>
           <button type='button' class='button CuberaSnapper' data-toggle="modal" data-target="#CuberaSnapper"></button>
           <div class="modal fade" id="CuberaSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4004,7 +4004,7 @@
           <h4>Dog Snapper<h4>
           <button type='button' class='button DogSnapper' data-toggle="modal" data-target="#DogSnapper"></button>
           <div class="modal fade" id="DogSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4040,7 +4040,7 @@
           <h4>Gray Snapper<h4>
           <button type='button' class='button GraySnapper' data-toggle="modal" data-target="#GraySnapper"></button>
           <div class="modal fade" id="GraySnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4076,7 +4076,7 @@
           <h4>Lane Snapper<h4>
           <button type='button' class='button LaneSnapper' data-toggle="modal" data-target="#LaneSnapper"></button>
           <div class="modal fade" id="LaneSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4115,7 +4115,7 @@
           <h4>Mahogany Snapper<h4>
           <button type='button' class='button MahoganySnapper' data-toggle="modal" data-target="#MahoganySnapper"></button>
           <div class="modal fade" id="MahoganySnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4151,7 +4151,7 @@
           <h4>Mutton Snapper<h4>
           <button type='button' class='button MuttonSnapper' data-toggle="modal" data-target="#MuttonSnapper"></button>
           <div class="modal fade" id="MuttonSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4187,7 +4187,7 @@
           <h4>Queen Snapper<h4>
           <button type='button' class='button QueenSnapper' data-toggle="modal" data-target="#QueenSnapper"></button>
           <div class="modal fade" id="QueenSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4226,7 +4226,7 @@
           <h4>Red Snapper<h4>
           <button type='button' class='button RedSnapper' data-toggle="modal" data-target="#RedSnapper"></button>
           <div class="modal fade" id="RedSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4262,7 +4262,7 @@
           <h4>Schoolmaster<h4>
           <button type='button' class='button Schoolmaster' data-toggle="modal" data-target="#Schoolmaster"></button>
           <div class="modal fade" id="Schoolmaster" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4298,7 +4298,7 @@
           <h4>Silk Snapper<h4>
           <button type='button' class='button SilkSnapper' data-toggle="modal" data-target="#SilkSnapper"></button>
           <div class="modal fade" id="SilkSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4337,7 +4337,7 @@
           <h4>Vermilion Snapper<h4>
           <button type='button' class='button VermilionSnapper' data-toggle="modal" data-target="#VermilionSnapper"></button>
           <div class="modal fade" id="VermilionSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4373,7 +4373,7 @@
           <h4>Yellowtail Snapper<h4>
           <button type='button' class='button YellowtailSnapper' data-toggle="modal" data-target="#YellowtailSnapper"></button>
           <div class="modal fade" id="YellowtailSnapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4409,7 +4409,7 @@
           <h4>Snook<h4>
           <button type='button' class='button Snook' data-toggle="modal" data-target="#Snook"></button>
           <div class="modal fade" id="Snook" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4448,7 +4448,7 @@
           <h4>Fat Snook<h4>
           <button type='button' class='button FatSnook' data-toggle="modal" data-target="#FatSnook"></button>
           <div class="modal fade" id="FatSnook" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4484,7 +4484,7 @@
           <h4>Swordspine Snook<h4>
           <button type='button' class='button SwordspineSnook' data-toggle="modal" data-target="#SwordspineSnook"></button>
           <div class="modal fade" id="SwordspineSnook" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4520,7 +4520,7 @@
           <h4>Tarpon Snook<h4>
           <button type='button' class='button TarponSnook' data-toggle="modal" data-target="#TarponSnook"></button>
           <div class="modal fade" id="TarponSnook" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4559,7 +4559,7 @@
           <h4>Atlantic Spadefish<h4>
           <button type='button' class='button AtlanticSpadefish' data-toggle="modal" data-target="#AtlanticSpadefish"></button>
           <div class="modal fade" id="AtlanticSpadefish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4595,7 +4595,7 @@
           <h4>Gulf Sturgeon<h4>
           <button type='button' class='button GulfSturgeon' data-toggle="modal" data-target="#GulfSturgeon"></button>
           <div class="modal fade" id="GulfSturgeon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4631,7 +4631,7 @@
           <h4>Tarpon<h4>
           <button type='button' class='button Tarpon' data-toggle="modal" data-target="#Tarpon"></button>
           <div class="modal fade" id="Tarpon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4670,7 +4670,7 @@
           <h4>Ladyfish<h4>
           <button type='button' class='button Ladyfish' data-toggle="modal" data-target="#Ladyfish"></button>
           <div class="modal fade" id="Ladyfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4706,7 +4706,7 @@
           <h4>Gray Triggerfish<h4>
           <button type='button' class='button GrayTriggerfish' data-toggle="modal" data-target="#GrayTriggerfish"></button>
           <div class="modal fade" id="GrayTriggerfish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -4742,7 +4742,7 @@
           <h4>Tripletail<h4>
           <button type='button' class='button Tripletail' data-toggle="modal" data-target="#Tripletail"></button>
           <div class="modal fade" id="Tripletail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
