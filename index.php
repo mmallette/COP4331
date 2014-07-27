@@ -117,7 +117,7 @@
       
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading"><a href="ibrahim.html" style="text-decoration: none">Tides</a> <span class="text-muted">,plan for them</span></h2>
+          <h2 class="featurette-heading"><a href="ibrahim.html" style="text-decoration: none">Tides...</a><span class="text-muted"> plan for them</span></h2>
           <p class="lead">Did you know that fish are active depending on the tides? Some fish like to come out at night, while others like the day. Some like low tides while others high tide. Be prepared! Look up when the fish are out so you don't get stuck catching nothing!</p>
         </div>
         <div class="col-md-5">
