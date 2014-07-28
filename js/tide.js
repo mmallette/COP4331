@@ -13,7 +13,11 @@ jQuery(document).ready(function($) {
                 
                 var location = parsed_json.tide.tideInfo[0].tideSite;
 				
-				
+		if(location=="")
+				{
+					$("#TideTitle").append("<h3>Sorry no data availabe for specified location. Try another location.</h3>");
+					return;
+				}		
                 
                 $("#TideTitle").append("<h3>Tide Weather Conditions for " + location + ".</h3>");
                 var row = table.insertRow(0);
