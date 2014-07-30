@@ -1,3 +1,5 @@
+//This is an open source project that we adapted to our project. 
+//It can be found on github at: https://github.com/peredurabefrog/phpSecureLogin
 function formhash(form, password) {
     // Create a new element input, this will be our hashed password field. 
     var p = document.createElement("input");
