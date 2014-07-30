@@ -135,7 +135,7 @@
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading"><a href="blog.html" style="text-decoration: none">Blog</a> <span class="text-muted"> Post and Catch</span></h2>
-          <p class="lead">Theres plenty of fish in the sea, show all your fishing friends that you got the biggest catch! Share techniques, ask questions, and share spots (except for that secrete one).</p>
+          <p class="lead">Theres plenty of fish in the sea, show all your fishing friends that you got the biggest catch! Share techniques, ask questions, and share spots (except for that secret one).</p>
         </div>
       </div>
 
