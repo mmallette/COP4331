@@ -1,4 +1,6 @@
 <?php
+//This is an open source project that we adapted to our project. 
+//It can be found on github at: https://github.com/peredurabefrog/phpSecureLogin
     include_once 'dbconnect.php';  
     $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
     include_once 'register.inc.php';
